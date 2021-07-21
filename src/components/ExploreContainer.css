@@ -22,3 +22,8 @@
 .container a {
   text-decoration: none;
 }
+
+.leaflet-container {
+  width: 100wh; 
+  height: 85vh;
+}
