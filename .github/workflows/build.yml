@@ -57,7 +57,7 @@ jobs:
     - name: Build web in dev mode
       if: runner.os != 'windows'
       run: |
-        npm run build
+        CI=false npm run build
 
     - name: Build web in production mode
       if: runner.os != 'windows'
@@ -229,7 +229,7 @@ jobs:
       if: runner.os != 'windows'
       run: |
         rm -rf build || true
-        PUBLIC_URL="https://nguoianphu.github.io/ionic-tabs" npm run build
+        PUBLIC_URL="https://nguoianphu.github.io/ionic-tabs" CI=false npm run build
         
     - name: Deploy build/dist folder to github pages
       uses: s0/git-publish-subdir-action@develop
