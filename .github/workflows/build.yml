@@ -62,7 +62,7 @@ jobs:
     - name: Build web in production mode
       if: runner.os != 'windows'
       run: |
-        ionic build --configuration production \
+        CI=false  ionic build --configuration production \
             --aot=true --buildOptimizer=true \
             --optimization=true \
             --common-chunk=true \
