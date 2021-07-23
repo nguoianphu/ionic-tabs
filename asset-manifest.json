@@ -3,8 +3,8 @@
     "static/js/0.d570f7c7.chunk.js": "https://nguoianphu.github.io/ionic-tabs/static/js/0.d570f7c7.chunk.js",
     "static/js/0.d570f7c7.chunk.js.map": "https://nguoianphu.github.io/ionic-tabs/static/js/0.d570f7c7.chunk.js.map",
     "main.css": "https://nguoianphu.github.io/ionic-tabs/static/css/main.9192601d.chunk.css",
-    "main.js": "https://nguoianphu.github.io/ionic-tabs/static/js/main.03136b47.chunk.js",
-    "main.js.map": "https://nguoianphu.github.io/ionic-tabs/static/js/main.03136b47.chunk.js.map",
+    "main.js": "https://nguoianphu.github.io/ionic-tabs/static/js/main.621bb466.chunk.js",
+    "main.js.map": "https://nguoianphu.github.io/ionic-tabs/static/js/main.621bb466.chunk.js.map",
     "polyfills-dom.js": "https://nguoianphu.github.io/ionic-tabs/static/js/polyfills-dom.a2e3b938.chunk.js",
     "polyfills-dom.js.map": "https://nguoianphu.github.io/ionic-tabs/static/js/polyfills-dom.a2e3b938.chunk.js.map",
     "runtime-main.js": "https://nguoianphu.github.io/ionic-tabs/static/js/runtime-main.48a778d0.js",
@@ -134,6 +134,6 @@
     "static/css/4.c3e9ca69.chunk.css",
     "static/js/4.dc538728.chunk.js",
     "static/css/main.9192601d.chunk.css",
-    "static/js/main.03136b47.chunk.js"
+    "static/js/main.621bb466.chunk.js"
   ]
 }
