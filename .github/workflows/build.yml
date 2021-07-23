@@ -195,7 +195,7 @@ jobs:
       if: runner.os != 'windows'
       run: |
         rm -rf build || true
-        PUBLIC_URL="https://nguoianphu.github.io/ionic-tabs" CI=false npm run build
+        PUBLIC_URL="https://nguoianphu.github.io/ionic-tabs" SUB_FOLDER="ionic-tabs" CI=false npm run build
         
     - name: Deploy build/dist folder to github pages
       uses: s0/git-publish-subdir-action@develop

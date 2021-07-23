@@ -36,7 +36,7 @@ import './theme/variables.css';
 
 const App: React.FC = () => (
   <IonApp>
-    <IonReactRouter basename={process.env.PUBLIC_URL}>
+    <IonReactRouter basename={process.env.SUB_FOLDER}>
       <IonTabs>
         <IonRouterOutlet>
           <Route exact path="/tab1">
