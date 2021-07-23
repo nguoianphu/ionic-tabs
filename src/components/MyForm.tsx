@@ -1,3 +1,4 @@
+import React from 'react';
 import { IonButton, IonCheckbox, IonInput, IonItem, IonItemDivider, IonLabel, IonList, IonTextarea } from '@ionic/react';
 import { useState } from 'react';
 import './ExploreContainer.css';

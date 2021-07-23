@@ -1,3 +1,4 @@
+import React from 'react';
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import MyForm from '../components/MyForm';
 import './Tab1.css';
