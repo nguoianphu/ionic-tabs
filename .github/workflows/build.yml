@@ -225,6 +225,12 @@ jobs:
        path: |
         ./web.zip
         
+    - name: Build web to deplo to gihub page
+      if: runner.os != 'windows'
+      run: |
+        rm -rf build || true
+        PUBLIC_URL="https://nguoianphu.github.io/ionic-tabs" npm run build
+        
     - name: Deploy build/dist folder to github pages
       uses: s0/git-publish-subdir-action@develop
       env:
